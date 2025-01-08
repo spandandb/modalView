@@ -18,3 +18,6 @@ const closeModal = function () {
 for (let i = 0; i < showModal.length; i++) {
   showModal[i].addEventListener("click", openModal);
 }
+
+crossModal.addEventListener("click", closeModal);
+overlay.addEventListener("click", closeModal);
